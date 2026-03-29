@@ -20,7 +20,7 @@ export function TrustBar() {
           ))}
         </div>
       </div>
-      <style dangerouslySetInlineStyle={{
+      <style dangerouslySetInnerHTML={{
         __html: `
           @keyframes infinite-scroll {
             from { transform: translateX(0); }
