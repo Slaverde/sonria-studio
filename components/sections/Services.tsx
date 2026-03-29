@@ -3,14 +3,14 @@
 import { motion } from 'framer-motion';
 import { services } from '@/lib/constants';
 import { FadeIn } from '@/components/animations/FadeIn';
-import { ArrowUpRight, Sparkles, Smile, Micropscope, Baby, Layers } from 'lucide-react';
+import { ArrowUpRight, Sparkles, Smile, Microscope, Baby, Layers } from 'lucide-react';
 
 const icons: Record<string, any> = {
   implants: Layers,
   aligner: Smile,
   smile: Sparkles,
   sparkles: Sparkles,
-  microscope: Layers, // Placeholder
+  microscope: Microscope,
   baby: Baby,
 };
 
